@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food order website</title>
+
+   
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <section class="navbar">
+        <div class="container">
+            <div class="logo">
+                
+                    <img src="logo1-img.png" alt="logo" class="img-responsive">
+                
+            </div>
+
+            <div class="menu text-right">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="categories.html">Categories</a>
+                    </li>
+                    <li>
+                        <a href="foods.html">Foods</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="clearfix"></div>
+        </div>
+    </section>
+
+    <section class="food-search">
+        <div class="container">
+            
+            <h2 class="text-center text-white">Fill this form to confirm your order.</h2>
+
+            <form action="#" class="order">
+                <fieldset>
+                    <legend><h3 class="text-white">Selected Food</h3></legend>
+
+                    <div class="food-menu-img">
+                        <img src="menu-pizza.jpg" alt="Pizza" class="img-responsive img-curve">
+                    </div>
+    
+                    <div class="food-menu-desc text-white">
+                        <h3>Pizza</h3>
+                        <p class="food-price">Rs.250</p>
+
+                        <div class="order-label">Quantity</div>
+                        <input type="number" name="qty" class="input-responsive" value="1" required>
+                        
+                    </div>
+
+                </fieldset>
+                
+                <fieldset>
+                    <legend><h3 class="text-white">Delivery Details</h3></legend>
+                    <div class="order-label text-white">Full Name</div>
+                    <input type="text" name="full-name" placeholder="E.g. xyz" class="input-responsive" required>
+
+                    <div class="order-label text-white">Phone Number</div>
+                    <input type="tel" name="contact" placeholder="E.g. 9876xxxxxx" class="input-responsive" required>
+
+                    <div class="order-label text-white">Email</div>
+                    <input type="email" name="email" placeholder="E.g. xyz@gmail.com" class="input-responsive" required>
+
+                    <div class="order-label text-white">Address</div>
+                    <textarea name="address" rows="10" placeholder="E.g. Flat-no.,Street, City, Country" class="input-responsive" required></textarea>
+
+                    <input type="submit" name="submit" value="Confirm Order" class="btn btn-primary">
+                </fieldset>
+
+            </form>
+
+        </div>
+    </section>
+    
+    <section class="social">
+        <div class="container text-center">
+            <ul>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/50/000000/facebook-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/instagram-new.png"/></a>
+                </li>
+                <li>
+                    <a href="#"><img src="https://img.icons8.com/fluent/48/000000/twitter.png"/></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <div class="container text-center">
+            <p>All Rights Reserved.</p>
+        </div>
+    </section>
+    
+
+</body>
+</html>
